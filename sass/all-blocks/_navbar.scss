@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 44px 0;
+
+    ul {
+        display: flex;
+        column-gap: 33px;
+
+        li {
+            text-transform: uppercase;
+            color: $secondaryColor;
+            font-weight: 500;
+            font-size: $smallFont;
+            font-family: $mainFont;
+            transition: 0.4s ease-in-out;
+
+            &:hover {
+                color: #0E8784;
+                font-weight: 700;
+            }
+
+            &:active {
+                transform: scale(1.2);
+            }
+        }
+    }
+}

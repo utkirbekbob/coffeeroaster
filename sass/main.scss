@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@import "variables";
+@import 'fonts';
+
+@import 'all-blocks/navbar';
+@import 'all-blocks/hero';
+@import 'all-blocks/commitment';
+@import 'all-blocks/quality';
+@import 'all-blocks/headquarters';
+@import 'all-blocks/footer';

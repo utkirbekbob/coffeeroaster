@@ -1,0 +1,31 @@
+.commitment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 99px;
+    padding: 0 85px;
+    margin-bottom: 168px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+        max-width: 540px;
+
+        h2 {
+            color: $blackColor;
+            font-size: $bigFont;
+            line-height: 48px;
+            letter-spacing: 1px;
+            font-family: $secondaryFont;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 26px;
+            font-family: $mainFont;
+            color: $blackColor;
+            letter-spacing: 1px;
+        }
+    }
+}
