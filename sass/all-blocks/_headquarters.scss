@@ -1,0 +1,41 @@
+.headquarters {
+    text-align: center;
+    padding: 50px;
+    h2 {
+        color: #333D4B;
+        font-size: 32px;
+        margin-bottom: 24px;
+        line-height: 36px;
+        letter-spacing: 1px;
+    }
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+
+    .location {
+        background: #fff;
+        padding: 20px;
+        text-align: center;
+
+        img {
+            max-width: 50px;
+            margin-bottom: 45px;
+        }
+
+        h3 {
+            color: #333D4B;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #333D4B;
+            line-height: 26px;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+    }
+}
