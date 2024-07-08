@@ -1,0 +1,28 @@
+.plan {
+    background-image: url(/assets/images/plan-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 137px 750px 137px 85px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+
+    h2 {
+        color: $primaryColor;
+        font-size: 72px;
+        line-height: 72px;
+        font-family: $secondaryFont;
+        letter-spacing: 1px;
+    }
+
+    p {
+        color: $primaryColor;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        font-family: $secondaryFont;
+        letter-spacing: 1px;
+    }
+}

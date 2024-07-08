@@ -1,0 +1,52 @@
+.questions {
+  display: flex;
+}
+.questions .sidebar {
+  width: 25%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+}
+.questions .sidebar .step {
+  font-size: 18px;
+  color: #aaa;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.questions .sidebar .step.active {
+  color: #00bfa5;
+  font-weight: bold;
+}
+.questions .content {
+  width: 75%;
+  padding: 20px;
+}
+.questions .content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.questions .content .options {
+  display: flex;
+  justify-content: space-between;
+}
+.questions .content .options .option {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  background-color: #eee;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.questions .content .options .option.active {
+  background-color: #00bfa5;
+  color: #fff;
+}
+.questions .content .options .option h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.questions .content .options .option p {
+  font-size: 16px;
+}/*# sourceMappingURL=questions.css.map */
